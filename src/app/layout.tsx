@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Topbar from "@/components/Shared/Topbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#161815]`}>{children}</body>
+      <body
+        className={`${inter.className} bg-white bg-opacity-20 flex flex-col items-center min-h-screen w-screen`}
+      >
+        <div className="fixed top-0 left-0">
+          <Topbar />
+        </div>
+        <div className="flex flex-1 pt-20 bg-[#161815]">{children}</div>
+      </body>
     </html>
   );
 }
