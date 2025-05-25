@@ -21,11 +21,11 @@ const Topbar = () => {
       </div>
 
       <div className="flex flex-row items-center space-x-5">
-        <div className="h-[44px] w-max px-5 rounded-[12px] bg-transparent hover:bg-green hover:text-black transition-all ease-in-out cursor-pointer border border-green text-white flex items-center justify-center text-base font-semibold">
+        <div className="h-[44px] w-max px-6 rounded-[12px] bg-transparent hover:bg-green hover:text-black transition-all ease-in-out cursor-pointer border border-green text-white flex items-center justify-center text-base font-semibold">
           Sign In
         </div>
 
-        <div className="h-[44px] w-max px-5 rounded-[12px] bg-green hover:bg-transparent hover:text-white transition-all ease-in-out cursor-pointer border border-green text-black flex items-center justify-center text-base font-semibold">
+        <div className="h-[44px] w-max px-6 rounded-[12px] bg-green hover:bg-transparent hover:text-white transition-all ease-in-out cursor-pointer border border-green text-black flex items-center justify-center text-base font-semibold">
           Get Started
         </div>
       </div>
