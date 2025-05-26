@@ -1,4 +1,8 @@
 import React from "react";
+import InstagramIcon from "./Icons/InstagramIcon";
+import Facebook from "./Icons/Facebook";
+import LinkedinIcon from "./Icons/LinkedinIcon";
+import TelegramIcon from "./Icons/TelegramIcon";
 
 const Footer = () => {
   return (
@@ -15,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-[1126px] flex flex-col justify-between">
+      <div className="w-[1126px] flex flex-row justify-between">
         <div className="flex flex-col space-y-3">
           <p className="text-xl font-semibold text-black">Platform</p>
           <div className="flex flex-col space-y-2">
@@ -37,6 +41,60 @@ const Footer = () => {
             <p className="text-black cursor-pointer w-max hover:font-semibold transition-all ease-in-out text-base">
               Blog
             </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col space-y-3">
+          <p className="text-xl font-semibold text-black">Features</p>
+          <div className="flex flex-col space-y-2">
+            <p className="text-black cursor-pointer w-max hover:font-semibold transition-all ease-in-out text-base">
+              AI Cover Letter Creator
+            </p>
+            <p className="text-black cursor-pointer w-max hover:font-semibold transition-all ease-in-out text-base">
+              Resume Keywords Optimizer
+            </p>
+            <p className="text-black cursor-pointer w-max hover:font-semibold transition-all ease-in-out text-base">
+              ATS Resume Checker
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col space-y-3">
+          <p className="text-xl font-semibold text-black">Resources</p>
+          <div className="flex flex-col space-y-2 w-[294px]">
+            <p className="text-black cursor-pointer w-full hover:font-semibold transition-all ease-in-out text-base">
+              4 AI Tools for Applying a Job
+            </p>
+            <p className="text-black cursor-pointer w-full hover:font-semibold transition-all ease-in-out text-base">
+              How to optimize Resume keywords
+            </p>
+            <p className="text-black cursor-pointer w-full hover:font-semibold transition-all ease-in-out text-base">
+              Why you should use Chat GPT for create Resume
+            </p>
+            <p className="text-black cursor-pointer w-full hover:font-semibold transition-all ease-in-out text-base">
+              What should you include in a Cover Letter
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col space-y-3">
+          <p className="text-xl font-semibold text-black">Support</p>
+          <p className="text-black cursor-pointer w-full hover:font-semibold transition-all ease-in-out text-base">
+            support@gmail.com
+          </p>
+          <div className="flex flex-row items-center space-x-5">
+            <div className="cursor-pointer hover:scale-125 hover:rotate-12 transition-all ease-in-out">
+              <InstagramIcon />
+            </div>
+            <div className="cursor-pointer hover:scale-125 hover:rotate-12 transition-all ease-in-out">
+              <Facebook />
+            </div>
+            <div className="cursor-pointer hover:scale-125 hover:rotate-12 transition-all ease-in-out">
+              <LinkedinIcon />
+            </div>
+            <div className="cursor-pointer hover:scale-125 hover:rotate-12 transition-all ease-in-out">
+              <TelegramIcon />
+            </div>
           </div>
         </div>
       </div>
