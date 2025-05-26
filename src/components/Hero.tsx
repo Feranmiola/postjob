@@ -1,5 +1,7 @@
 import React from "react";
 import DocumentIcon from "./Icons/DocumentIcon";
+import NetworkIcon from "./Icons/NetworkIcon";
+import ScannerIcon from "./Icons/ScannerIcon";
 
 const Hero = () => {
   return (
@@ -40,25 +42,23 @@ const Hero = () => {
           </p>
         </div>
         <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
-          <DocumentIcon />
+          <NetworkIcon />
           <p className="text-white text-base font-semibold">
-            AI Cover Letter Generator
+            Smart Personalization
           </p>
           <p className="text-base text-gray">
-            The AI Cover Letter Generator is a tool that uses artificial
-            intelligence algorithms to create personalized cover letters for job
-            applicants.
+            Smart Personalization refers to the use of data and technology to
+            deliver tailored experiences and content to individual customers or
+            users.
           </p>
         </div>
         <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
-          <DocumentIcon />
-          <p className="text-white text-base font-semibold">
-            AI Cover Letter Generator
-          </p>
+          <ScannerIcon />
+          <p className="text-white text-base font-semibold">Resume Scanner</p>
           <p className="text-base text-gray">
-            The AI Cover Letter Generator is a tool that uses artificial
-            intelligence algorithms to create personalized cover letters for job
-            applicants.
+            A resume scanner is a software application that uses optical
+            character recognition (OCR) technology to extract and analyze data
+            from resumes.
           </p>
         </div>
       </div>
