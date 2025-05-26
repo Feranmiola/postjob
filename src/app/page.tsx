@@ -1,4 +1,5 @@
 "use client";
+import Hero from "@/components/Hero";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -41,8 +42,8 @@ export default function Home() {
     };
   }, []);
   return (
-    <div className="bg-[#161815] min-h-screen h-full w-screen">
-      <div></div>
+    <div className="bg-[#161815] min-h-screen h-full w-screen flex flex-col">
+      <Hero />
     </div>
   );
 }
