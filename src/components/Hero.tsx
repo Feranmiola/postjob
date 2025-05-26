@@ -1,4 +1,5 @@
 import React from "react";
+import DocumentIcon from "./Icons/DocumentIcon";
 
 const Hero = () => {
   return (
@@ -23,6 +24,20 @@ const Hero = () => {
           <div className="h-[44px] w-[175px] px-6 rounded-[12px] bg-green hover:bg-transparent hover:text-white transition-all ease-in-out cursor-pointer border border-green text-black flex items-center justify-center text-base font-semibold">
             Start for free
           </div>
+        </div>
+      </div>
+
+      <div className="flex flex-row items-center space-x-5">
+        <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
+          <DocumentIcon />
+          <p className="text-white text-base font-semibold">
+            AI Cover Letter Generator
+          </p>
+          <p className="text-base text-gray">
+            The AI Cover Letter Generator is a tool that uses artificial
+            intelligence algorithms to create personalized cover letters for job
+            applicants.
+          </p>
         </div>
       </div>
     </div>
