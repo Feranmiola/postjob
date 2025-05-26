@@ -1,4 +1,5 @@
 "use client";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import SpendLessTime from "@/components/SpendLessTime";
 import { useEffect } from "react";
@@ -46,6 +47,7 @@ export default function Home() {
     <div className="bg-[#161815] min-h-screen h-full w-screen flex flex-col space-y-5">
       <Hero />
       <SpendLessTime />
+      <Footer />
     </div>
   );
 }
