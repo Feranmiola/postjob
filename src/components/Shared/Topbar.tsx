@@ -3,7 +3,7 @@ import PostJobIcon from "../Icons/PostJobIcon";
 
 const Topbar = () => {
   return (
-    <div className="bg-[#161815] w-screen px-10 h-[128px] py-5 flex flex-row items-center justify-between ">
+    <div className="bg-[#161815] bg-opacity-75 w-screen px-10 h-[128px] py-5 flex flex-row items-center justify-between ">
       <div className="flex flex-row  items-center space-x-3">
         <PostJobIcon />
 
