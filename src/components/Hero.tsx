@@ -5,7 +5,7 @@ import ScannerIcon from "./Icons/ScannerIcon";
 
 const Hero = () => {
   return (
-    <div className="flex items-center justify-center flex-col space-y-10 pt-[10rem]">
+    <div className="flex items-center justify-center flex-col space-y-10 pt-[7rem]">
       <div className="flex flex-col space-y-5 items-center justify-center">
         <p className="text-[88px] text-white font-semibold text-center leading-[7rem]">
           <span className="text-green">Win your dream job </span>
