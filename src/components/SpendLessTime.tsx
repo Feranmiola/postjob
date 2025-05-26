@@ -2,6 +2,11 @@ import React from "react";
 import ScannerIcon from "./Icons/ScannerIcon";
 import DocumentIcon from "./Icons/DocumentIcon";
 import NetworkIcon from "./Icons/NetworkIcon";
+import ResignationLetter from "./Icons/ResignationLetter";
+import ConnectionIcon from "./Icons/ConnectionIcon";
+import SendIcon from "./Icons/SendIcon";
+import OptimisationIcon from "./Icons/OptimisationIcon";
+import BlocksIcon from "./Icons/BlocksIcon";
 
 const SpendLessTime = () => {
   return (
@@ -25,52 +30,49 @@ const SpendLessTime = () => {
         <div className="flex flex-row items-center space-x-5">
           <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
             <DocumentIcon />
-            <p className="text-white text-base font-semibold">
-              AI Cover Letter Generator
-            </p>
+            <p className="text-white text-base font-semibold">Cover Letter</p>
             <p className="text-base text-gray">
-              The AI Cover Letter Generator is a tool that uses artificial
-              intelligence algorithms to create personalized cover letters for
-              job applicants.
+              A cover letter is a document that accompanies a job application
+              and is written to introduce the applicant to the employer.
             </p>
           </div>
           <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
-            <NetworkIcon />
+            <ResignationLetter />
             <p className="text-white text-base font-semibold">
-              Smart Personalization
+              Resignation Letters
             </p>
             <p className="text-base text-gray">
-              Smart Personalization refers to the use of data and technology to
-              deliver tailored experiences and content to individual customers
-              or users.
+              A resignation letter is a formal document that an employee writes
+              to inform their employer of their decision to leave the company.
             </p>
           </div>
           <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
-            <ScannerIcon />
-            <p className="text-white text-base font-semibold">Resume Scanner</p>
+            <ConnectionIcon />
+            <p className="text-white text-base font-semibold">
+              Connection Request
+            </p>
             <p className="text-base text-gray">
-              A resume scanner is a software application that uses optical
-              character recognition (OCR) technology to extract and analyze data
-              from resumes.
+              A connection request is a message sent on a social networking
+              site, such as LinkedIn, requesting to connect with another user.
             </p>
           </div>
         </div>
         <div className="flex flex-row items-center space-x-5">
           <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
-            <DocumentIcon />
+            <SendIcon />
             <p className="text-white text-base font-semibold">
-              AI Cover Letter Generator
+              Outreach Emails
             </p>
             <p className="text-base text-gray">
-              The AI Cover Letter Generator is a tool that uses artificial
-              intelligence algorithms to create personalized cover letters for
-              job applicants.
+              Outreach emails are messages sent by individuals or businesses to
+              introduce themselves, establish a connection, or propose a
+              collaboration.
             </p>
           </div>
           <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
-            <NetworkIcon />
+            <OptimisationIcon />
             <p className="text-white text-base font-semibold">
-              Smart Personalization
+              Resume Optimization
             </p>
             <p className="text-base text-gray">
               Smart Personalization refers to the use of data and technology to
@@ -79,8 +81,8 @@ const SpendLessTime = () => {
             </p>
           </div>
           <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
-            <ScannerIcon />
-            <p className="text-white text-base font-semibold">Resume Scanner</p>
+            <BlocksIcon />
+            <p className="text-white text-base font-semibold">Resume Design</p>
             <p className="text-base text-gray">
               A resume scanner is a software application that uses optical
               character recognition (OCR) technology to extract and analyze data
