@@ -6,7 +6,7 @@ import TelegramIcon from "./Icons/TelegramIcon";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center bg-green justify-center w-full h-[713px] space-y-5">
+    <div className="flex flex-col items-center bg-green justify-center w-full h-[713px] space-y-12">
       <div className="flex flex-col items-center space-y-2">
         <p className="text-dark text-[64px] font-semibold">What's next</p>
         <p className="text-base text-black  w-[458px] text-center">
@@ -97,6 +97,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="w-[1192px] border-t-dark border-t pt-5 flex items-center justify-center">
+        <p className="text-[#1F392C] text-[16px]">
+          © Copywriting | All Rights Reserved |{" "}
+          <span className="cursor-pointer hover:font-semibold">
+            Terms of Use
+          </span>{" "}
+          |<span className="cursor-pointer hover:font-semibold">Privacy</span>
+        </p>
       </div>
     </div>
   );
