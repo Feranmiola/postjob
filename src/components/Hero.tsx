@@ -39,6 +39,28 @@ const Hero = () => {
             applicants.
           </p>
         </div>
+        <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
+          <DocumentIcon />
+          <p className="text-white text-base font-semibold">
+            AI Cover Letter Generator
+          </p>
+          <p className="text-base text-gray">
+            The AI Cover Letter Generator is a tool that uses artificial
+            intelligence algorithms to create personalized cover letters for job
+            applicants.
+          </p>
+        </div>
+        <div className="w-[361px] h-[204px] rounded-[12px] bg-[#1E201D] p-5 flex flex-col justify-between">
+          <DocumentIcon />
+          <p className="text-white text-base font-semibold">
+            AI Cover Letter Generator
+          </p>
+          <p className="text-base text-gray">
+            The AI Cover Letter Generator is a tool that uses artificial
+            intelligence algorithms to create personalized cover letters for job
+            applicants.
+          </p>
+        </div>
       </div>
     </div>
   );
