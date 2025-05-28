@@ -1,6 +1,7 @@
 "use client";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Options from "@/components/Options";
 import SpendLessTime from "@/components/SpendLessTime";
 import Submit from "@/components/Submit";
 import { useEffect } from "react";
@@ -48,6 +49,7 @@ export default function Home() {
     <div className="bg-[#161815] min-h-screen h-full w-screen flex flex-col space-y-5">
       <Hero />
       <Submit />
+      <Options />
       <SpendLessTime />
       <Footer />
     </div>
